@@ -1,0 +1,44 @@
+<div class="container">
+
+  <h2 class="mt-2">Stupid Coaching</h2>
+  <div style="background-color: #64dfdf; border-radius: 10px" class="mt-3 p-5">
+
+    <div class="row">
+      <div class="col-lg-2">
+        <img style="width: 120px; height: 120px; border-radius: 50%" src="https://www.unicorniohater.com.br/wp-content/uploads/2019/09/stallone-proximo-rocky-760x428.jpg">
+      </div>
+      <div class="col-lg-10" style="background-color: #fff; border-radius: 10px 10px 10px 0 ">
+          <div class="p-3">
+            <h3><%= @answer %></h3>
+            <p>- You</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background-color: #64dfdf; border-radius: 10px" class="mt-5 p-5">
+    <div class="row">
+      <div class="col-lg-2">
+        <img style="width: 120px; height: 120px; border-radius: 50%" src="https://m0.sportsjoe.ie/wp-content/uploads/2020/03/29183424/Mickey.jpg">
+      </div>
+      <div class="col-lg-10" style="background-color: #fff; border-radius: 10px 10px 10px 0 ">
+        <div class="p-3">
+         <% if @answer.match(/\w*\?{1}/) %>
+          <h3><%= "Silly question, get dressed and go to work!" %></h3>
+         <% elsif @answer.match(/I am going to work/) %>
+          <h3><%= "Great" %></h3>
+         <% else %>
+          <h3><%= "I don't care, get dressed and go to work!" %></h3>
+         <% end %>
+          <p>- Your coach</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+  <div class="mt-4 mb-5">
+    <div>
+      <%= link_to "Ask a new question", "ask" %>
+    </div>
+  </div>
