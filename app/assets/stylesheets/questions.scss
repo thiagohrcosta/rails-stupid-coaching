@@ -19,3 +19,39 @@
      color: black;
    }
  }
+
+.box-answer{
+  background-color: #64dfdf;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.text-main{
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-back{
+  border-radius: 20px;
+  padding: 15px 35px;
+  background-color: #64dfdf;
+}
+
+.btn-back a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-back a:hover{
+  color: #64dfdf;
+}
+
+.btn-back:hover{
+  background-color: #fff;
+  border: 1px solid #64dfdf;
+  color: #64dfdf;
+}
+
