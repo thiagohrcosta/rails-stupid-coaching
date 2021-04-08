@@ -1,4 +1,5 @@
 # README
+![main banner](https://github.com/thiagohrcosta/rails-stupid-coaching/blob/master/public/img/stupidCoach1.png?raw=true)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
