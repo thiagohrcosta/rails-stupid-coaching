@@ -23,13 +23,7 @@
       </div>
       <div class="col-lg-10" style="background-color: #fff; border-radius: 10px 10px 10px 0 ">
         <div class="p-3">
-         <% if @answer.match(/\w*\?{1}/) %>
-          <h3><%= "Silly question, get dressed and go to work!" %></h3>
-         <% elsif @answer.match(/I am going to work/) %>
-          <h3><%= "Great" %></h3>
-         <% else %>
-          <h3><%= "I don't care, get dressed and go to work!" %></h3>
-         <% end %>
+          <h3><%= @coach_answer %></h3>
           <p>- Your coach</p>
         </div>
       </div>
